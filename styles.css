@@ -1,0 +1,447 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#firsthtml,#secondhtml{
+    height: 100vh;
+    width: 100vw;
+    background-color: #e6d1b0;
+}
+#orderpanel,#totalpanel{
+    float: left;
+}
+#mainpanel,#menupanel,#cashoutpanel{
+    float: right;
+}
+#orderpanel,#totalpanel,#mainpanel,#menupanel,#cashoutpanel,
+#orderpanel2,#totalpanel2,#delete,#cashout,#mainpanel2,#menupanel2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#orderpanel{
+    width: 40%;
+    height: 85%;
+}
+#totalpanel{
+    width: 40%;
+    height: 15%;
+}
+#mainpanel{
+    width: 60%;
+    height: 10%;   
+}
+#menupanel{
+    width: 60%;
+    height: 70%;
+    
+}
+#cashoutpanel{
+    width: 60%;
+    height: 20%;
+}
+#orderpanel2 {
+    height: 95%;
+    width: 87%;
+    background-color: #e19ebf;
+    border: 5px solid #f1eaee;
+}
+#totalpanel2{
+    width: 85%;
+    height: 80%;
+    background-color: #e19ebf;
+    border-radius: 1rem;
+}
+#mainpanel2{
+    width: 50%;
+    height: 90%;
+    background-color: #f1eaee;
+    border: 5px solid #945f0d;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+#mainpanel2 h1{
+    text-align: center;
+    font-family: "Mv Boli";
+    color: #945f0d;
+}
+#arrleft,#arrright{
+    background: #f1eaee;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 1px solid #945f0d;
+    position: relative;
+}
+#arrleft div,#arrright div{ 
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-top: 8px solid #202020;
+    border-left: 8px solid #202020;
+    transform: rotate(45deg);
+    left: 25px;
+    top:30px;
+}
+#arrleft{
+    transform: rotate(-90deg);
+}
+#arrright{
+    transform: rotate(90deg);
+}
+#menupanel2{
+    width: 95%;
+    height: 98%;
+    background-color: #e19ebf;
+    border: 5px dashed #f1eaee;
+    border-radius: 1rem;
+}
+#menupanel3{
+    width: 98%;
+    height: 98%;
+    background-color: #f1eaee;
+    display: flex;
+    justify-content: space-between;
+    overflow: x;
+    border-radius: 1rem;
+}
+.menucontainer{
+    width: 40%;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;  
+}
+.menuname{
+    width: 80%;
+    height: 10%;
+    margin: 10px;
+    border-radius: 1rem;
+    background-color: #f8c7df;
+    border: 5px solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: "Mv boli";
+    color: #945f0d;
+    font-weight: bolder;
+}
+.container{
+    display: flex;
+    width: 98%;
+    height: 95%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: start;
+}
+.container button{
+    height: 100px;
+    width: 100px;
+    background-color: #e19ebf;
+    border: 2px solid #e7b2e8;
+    color: #fae3c1;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    cursor: pointer;
+    -webkit-text-stroke-color: rgb(188, 179, 179);
+    -webkit-text-stroke-width: 1px;
+}
+.menucontainer:nth-child(3){
+    width: 25%;
+}
+.menucontainer:nth-child(3) button{
+    height: 80px;
+    width: 80px;
+   
+}
+#cashoutpanel2{
+    width: 95%;
+    height: 85%;
+    background-color: #f8c7df;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.orderpanel3{
+    height: 95%;
+    width: 97%;
+    overflow-x: auto;
+    background-color: #f1eaee;
+    border: 3px solid #945f0d;
+    border-radius: 1rem;
+}
+.orderpanel3 h1{    
+    text-align: center;
+    font-family: "Chewy",cursive;
+    margin-bottom:10px;
+    color: #945f0d;
+}
+.orderpanel3div{
+    font-size: 2rem;
+    margin: 4px 0;
+    font-family: "Mv Boli";
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 5px;
+    align-items: start;
+}
+hr{
+    width: 90%;
+    margin: 0 auto 2px auto;
+}
+.totalpanel3{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    height: 85%;
+    border-radius: 1rem;
+    background-color: #f1eaee;
+    color: #945f0d;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    font-weight: bold;
+    font-size: 4.5rem;
+    vertical-align: middle;
+    font-family: "Mv Boli";
+    padding: 0 0 0 1rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+#cashoutpanel3{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    align-items: end;
+}
+#small,#medium,#large{
+    cursor: pointer;
+    background-color: #c7f8f8;
+    border: 3px dashed #efa2a2;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin:0 0 0.5rem 2rem;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color: #945f0d;
+    font-family:"Mv Boli";
+    font-weight: 700;
+    font-size: 2rem;
+    opacity: 60%;
+}
+#small{
+    width: 18%;
+    height: 60%;
+    padding-bottom: 0.8rem ;
+}
+#medium{
+    width: 20%;
+    height: 70%;
+    padding-bottom: 1.7rem ;
+}
+#large{
+    width: 25%;
+    height: 85%;
+    padding-bottom: 2.2rem ;
+}
+#cashoutpanel4{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+#cashout{
+    width: 80%;
+    height: 40%;
+    margin: 0.5rem;
+}
+#cashout button:active{
+    transform: scale(1.2);
+}
+#cashout button{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #84bdbd;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    font-size: 3rem;
+    color: #945f0d;
+    background-color: #bdff9a;
+    text-align: center;
+    font-family: "Aleo";
+    font-weight: bolder;
+    cursor: pointer;
+}
+#delete{
+    width: 50%;
+    height: 50%;
+    margin: 0.5rem;
+}
+#delete button{
+    width: 100%;
+    height: 100%;
+    background-color: #f49c67;
+    border: 2px solid #f55d00;
+    text-align: center;
+    color: yellow;
+    -webkit-text-fill-color: yellow;
+    -webkit-text-stroke-width: 1spx;
+    -webkit-text-stroke-color: red;
+    border-radius: 1rem;
+    font-weight: bolder;
+    font-size: 2rem;
+    cursor: pointer;
+}
+button:active{
+    transform: scale(1.2);
+}
+#calculatorpanel{
+    width: 98%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+
+}
+#calculatorpanel2 {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1rem;
+    height: 95%;
+    width: 95%;
+    background-color: #e19ebf;
+    border: 5px solid #f1eaee;
+}
+#calculatorpanel3{
+    width: 36%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#calculatorpanel4{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#calculatorpanel5{
+    width: 95%;
+    height: 95%;
+    background-color: #d9fdda;
+    border: 5px dashed #f1eaee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#calculatorpanel6{
+    height: 35%;
+    width: 95%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    border: 3px solid #efa736;
+}
+#pricepanel,#pricepanel2{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 50%;
+    width: 100%;
+    font-size: 4rem;
+    font-family: "Chewy",cursive;
+    color: #000;
+    padding-right: 100px;
+}
+.item button{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border: 3px solid #efa736;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Tan Tangkiwood",Mv boli;
+    color: #efa736;
+    -webkit-text-fill-color: #f55d00;
+    -webkit-text-stroke-width: 2px;
+    font-size: 2.2rem;
+}
+#calculatorpanel7{
+    height: 60%;
+    width: 95%;
+    display: flex;
+}
+#calculatorpanel8{
+    margin: 0 10%;
+    display: grid;
+    height: 100%;
+    width: 30%;
+    grid-gap : 8% 8.33%;
+    grid-template-columns: 46% 46%;
+    grid-template-rows: 28% 28% 28%;
+    justify-content: space-evenly;
+    align-items: space-evenly   ;
+}
+#calculatorpanel9{
+    display: grid;
+    width: 50%;
+    height: 100%;
+    grid-template-columns:  33% 33% 33%;
+    grid-template-rows: 25%25%25%25% ;
+    justify-content: space-evenly;
+    align-items: space-evenly   ;
+}
+#bottompanel{
+    float: left;
+    width: 55%;
+    height: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#back,#paid{
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#paid button{
+    color: #945f0d;
+    font-size: 2rem;
+    font-weight: bolder;
+    background-color: #a8e8cb;
+    border: 3px solid #e19ebf;
+    height: 50%;
+    width: 100%;
+    border-radius: 1rem;
+}
+#back button{
+    height: 50%;
+    width: 100%;
+    font-size: 2rem;
+    color: #c7f8f8;
+    background-color: #0a82b6;
+    border: 3px solid #efa736;
+    height: 50%;
+    width: 100%;
+    border-radius: 1rem;
+}
